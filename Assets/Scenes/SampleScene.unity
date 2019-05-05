@@ -131,7 +131,7 @@ GameObject:
   - component: {fileID: 7234844}
   - component: {fileID: 7234846}
   - component: {fileID: 7234845}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Panel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -206,7 +206,7 @@ GameObject:
   - component: {fileID: 24037524}
   - component: {fileID: 24037526}
   - component: {fileID: 24037525}
-  m_Layer: 5
+  m_Layer: 8
   m_Name: AllDeadText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -286,7 +286,7 @@ GameObject:
   - component: {fileID: 77511573}
   - component: {fileID: 77511572}
   - component: {fileID: 77511574}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -389,7 +389,7 @@ GameObject:
   - component: {fileID: 158874974}
   - component: {fileID: 158874976}
   - component: {fileID: 158874975}
-  m_Layer: 5
+  m_Layer: 8
   m_Name: Food
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -575,7 +575,7 @@ GameObject:
   - component: {fileID: 190781466}
   - component: {fileID: 190781465}
   - component: {fileID: 190781464}
-  m_Layer: 5
+  m_Layer: 8
   m_Name: Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -674,7 +674,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 234229405}
-  m_Layer: 5
+  m_Layer: 8
   m_Name: Fill Area
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -778,7 +778,7 @@ GameObject:
   - component: {fileID: 309372777}
   - component: {fileID: 309372779}
   - component: {fileID: 309372778}
-  m_Layer: 5
+  m_Layer: 8
   m_Name: WinText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -857,7 +857,7 @@ GameObject:
   - component: {fileID: 360643816}
   - component: {fileID: 360643818}
   - component: {fileID: 360643817}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Panel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1039,7 +1039,7 @@ GameObject:
   - component: {fileID: 460293345}
   - component: {fileID: 460293344}
   - component: {fileID: 460293343}
-  m_Layer: 5
+  m_Layer: 8
   m_Name: Quit
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1171,7 +1171,7 @@ GameObject:
   - component: {fileID: 490751449}
   - component: {fileID: 490751448}
   - component: {fileID: 490751447}
-  m_Layer: 5
+  m_Layer: 8
   m_Name: Quit
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1302,7 +1302,7 @@ GameObject:
   - component: {fileID: 509795843}
   - component: {fileID: 509795845}
   - component: {fileID: 509795844}
-  m_Layer: 5
+  m_Layer: 8
   m_Name: Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1376,7 +1376,7 @@ GameObject:
   - component: {fileID: 519420032}
   - component: {fileID: 519420031}
   - component: {fileID: 519420029}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Main Camera
   m_TagString: MainCamera
   m_Icon: {fileID: 0}
@@ -1442,7 +1442,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 22.871067, y: 6.264038, z: -10}
+  m_LocalPosition: {x: 0, y: 0, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 190781463}
@@ -1485,7 +1485,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 4bbb6341506594f3ea827439371d8ae3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1567,7 +1567,7 @@ GameObject:
   - component: {fileID: 641221105}
   - component: {fileID: 641221107}
   - component: {fileID: 641221106}
-  m_Layer: 5
+  m_Layer: 8
   m_Name: Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1646,7 +1646,7 @@ GameObject:
   - component: {fileID: 759349075}
   - component: {fileID: 759349077}
   - component: {fileID: 759349076}
-  m_Layer: 5
+  m_Layer: 8
   m_Name: Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1719,7 +1719,7 @@ GameObject:
   m_Component:
   - component: {fileID: 816846754}
   - component: {fileID: 816846755}
-  m_Layer: 5
+  m_Layer: 8
   m_Name: WinScreen
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1774,7 +1774,7 @@ GameObject:
   - component: {fileID: 828797679}
   - component: {fileID: 828797678}
   - component: {fileID: 828797680}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: FlowerInteraction
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1852,7 +1852,7 @@ GameObject:
   - component: {fileID: 851050427}
   - component: {fileID: 851050429}
   - component: {fileID: 851050428}
-  m_Layer: 5
+  m_Layer: 8
   m_Name: Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1931,7 +1931,7 @@ GameObject:
   - component: {fileID: 898292058}
   - component: {fileID: 898292060}
   - component: {fileID: 898292059}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Message
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2011,7 +2011,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 942572736}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 1, y: 0, z: 0, w: 0}
   m_LocalPosition: {x: 14.5, y: 16, z: 0}
   m_LocalScale: {x: 200, y: 200, z: 1}
   m_Children:
@@ -2021,7 +2021,7 @@ Transform:
   - {fileID: 1757388837}
   m_Father: {fileID: 0}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 180, y: 0, z: 0}
 --- !u!65 &942572738
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2052,7 +2052,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 3ab0d3ab5d9f846a2bf2cb62ca019260, type: 2}
+  - {fileID: 2100000, guid: 4bbb6341506594f3ea827439371d8ae3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2115,7 +2115,7 @@ GameObject:
   - component: {fileID: 1006117694}
   - component: {fileID: 1006117696}
   - component: {fileID: 1006117695}
-  m_Layer: 5
+  m_Layer: 8
   m_Name: Health
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2194,7 +2194,7 @@ GameObject:
   - component: {fileID: 1026783046}
   - component: {fileID: 1026783048}
   - component: {fileID: 1026783047}
-  m_Layer: 5
+  m_Layer: 8
   m_Name: Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2273,7 +2273,7 @@ GameObject:
   - component: {fileID: 1058551066}
   - component: {fileID: 1058551068}
   - component: {fileID: 1058551067}
-  m_Layer: 5
+  m_Layer: 8
   m_Name: Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2348,7 +2348,7 @@ GameObject:
   - component: {fileID: 1140980560}
   - component: {fileID: 1140980559}
   - component: {fileID: 1140980558}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2431,7 +2431,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: I am a Strawberry plant - Bees help pollinate me to create Straberries
+  m_Text: I am a Strawberry plant - Bees help pollinate me to create Strawberries
 --- !u!222 &1140980560
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2451,7 +2451,7 @@ GameObject:
   - component: {fileID: 1179865403}
   - component: {fileID: 1179865405}
   - component: {fileID: 1179865404}
-  m_Layer: 5
+  m_Layer: 8
   m_Name: GameOverText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2529,7 +2529,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1182626659}
   - component: {fileID: 1182626660}
-  m_Layer: 5
+  m_Layer: 8
   m_Name: GameOver
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2583,7 +2583,7 @@ GameObject:
   - component: {fileID: 1268664483}
   - component: {fileID: 1268664485}
   - component: {fileID: 1268664484}
-  m_Layer: 5
+  m_Layer: 8
   m_Name: Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2663,7 +2663,7 @@ GameObject:
   - component: {fileID: 1338608905}
   - component: {fileID: 1338608904}
   - component: {fileID: 1338608903}
-  m_Layer: 5
+  m_Layer: 8
   m_Name: Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2762,7 +2762,7 @@ GameObject:
   - component: {fileID: 1346870298}
   - component: {fileID: 1346870300}
   - component: {fileID: 1346870299}
-  m_Layer: 5
+  m_Layer: 8
   m_Name: AllDeadText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2846,7 +2846,7 @@ GameObject:
   - component: {fileID: 1394153184}
   - component: {fileID: 1394153183}
   - component: {fileID: 1394153187}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: bee sprite_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2929,7 +2929,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1394153179}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -8.371067, y: 9.735962, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 519420032}
@@ -3018,7 +3018,7 @@ GameObject:
   - component: {fileID: 1495662556}
   - component: {fileID: 1495662555}
   - component: {fileID: 1495662554}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: GoodFlowerText (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3102,7 +3102,7 @@ Canvas:
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 0
-  m_SortingLayerID: 0
+  m_SortingLayerID: 2111036081
   m_SortingOrder: 0
   m_TargetDisplay: 0
 --- !u!1 &1507401019
@@ -3114,7 +3114,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1507401020}
-  m_Layer: 5
+  m_Layer: 8
   m_Name: Fill Area
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3152,7 +3152,7 @@ GameObject:
   - component: {fileID: 1560193036}
   - component: {fileID: 1560193038}
   - component: {fileID: 1560193037}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Panel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3227,7 +3227,7 @@ GameObject:
   - component: {fileID: 1593670960}
   - component: {fileID: 1593670962}
   - component: {fileID: 1593670961}
-  m_Layer: 5
+  m_Layer: 8
   m_Name: Fill
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3381,7 +3381,7 @@ GameObject:
   - component: {fileID: 1716844749}
   - component: {fileID: 1716844748}
   - component: {fileID: 1716844747}
-  m_Layer: 5
+  m_Layer: 8
   m_Name: Retry
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3618,7 +3618,7 @@ GameObject:
   - component: {fileID: 1786155068}
   - component: {fileID: 1786155070}
   - component: {fileID: 1786155069}
-  m_Layer: 5
+  m_Layer: 8
   m_Name: Healthbar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3725,7 +3725,7 @@ GameObject:
   - component: {fileID: 1896649867}
   - component: {fileID: 1896649866}
   - component: {fileID: 1896649865}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: GoodFlowerText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3809,7 +3809,7 @@ Canvas:
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 0
-  m_SortingLayerID: 0
+  m_SortingLayerID: 2111036081
   m_SortingOrder: 0
   m_TargetDisplay: 0
 --- !u!1 &1911336144
@@ -3823,7 +3823,7 @@ GameObject:
   - component: {fileID: 1911336145}
   - component: {fileID: 1911336147}
   - component: {fileID: 1911336146}
-  m_Layer: 5
+  m_Layer: 8
   m_Name: Fill
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3897,7 +3897,7 @@ GameObject:
   - component: {fileID: 1925488561}
   - component: {fileID: 1925488562}
   - component: {fileID: 1925488563}
-  m_Layer: 5
+  m_Layer: 8
   m_Name: FoodBar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4004,7 +4004,7 @@ GameObject:
   - component: {fileID: 1951918179}
   - component: {fileID: 1951918178}
   - component: {fileID: 1951918177}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4108,7 +4108,7 @@ GameObject:
   - component: {fileID: 1968977594}
   - component: {fileID: 1968977593}
   - component: {fileID: 1968977592}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: GoodFlowerText (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4192,7 +4192,7 @@ Canvas:
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 0
-  m_SortingLayerID: 0
+  m_SortingLayerID: 2111036081
   m_SortingOrder: 0
   m_TargetDisplay: 0
 --- !u!1 &1972910906
@@ -4206,7 +4206,7 @@ GameObject:
   - component: {fileID: 1972910907}
   - component: {fileID: 1972910909}
   - component: {fileID: 1972910908}
-  m_Layer: 5
+  m_Layer: 8
   m_Name: Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4281,7 +4281,7 @@ GameObject:
   - component: {fileID: 2060992182}
   - component: {fileID: 2060992181}
   - component: {fileID: 2060992180}
-  m_Layer: 5
+  m_Layer: 8
   m_Name: Retry
   m_TagString: Untagged
   m_Icon: {fileID: 0}

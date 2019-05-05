@@ -35,5 +35,8 @@ public class BeeMove : MonoBehaviour
         {
             dest = (Vector2)transform.position + Vector2.right;
         }
+        Vector2 dir = dest - (Vector2)transform.position;
+        GetComponent<Animator>().SetFloat("DIRX", dir.x);
+        GetComponent<Animator>().SetFloat("DIRY", dir.y);
     }
 }
