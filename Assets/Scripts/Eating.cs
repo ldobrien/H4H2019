@@ -9,6 +9,7 @@ public class Eating : MonoBehaviour {
     int foodPoint = 0;
 
     public HealthBar health;
+    public Interactive inter;
 
     void OnTriggerEnter2D(Collider2D coll) {
         Debug.Log(coll.name);
@@ -22,6 +23,7 @@ public class Eating : MonoBehaviour {
             // Add points
             flowerPoint++;
             health.IncreaseHealth();
+            inter.eaten = true;
             // Debug.Log("Current Health");
            // health.CurrentHealth += 10;
 

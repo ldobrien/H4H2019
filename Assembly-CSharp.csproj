@@ -66,6 +66,7 @@
     <Compile Include="Assets\Scripts\Eating.cs" />
     <Compile Include="Assets\Scripts\FoodBar.cs" />
     <Compile Include="Assets\Scripts\HealthBar.cs" />
+    <Compile Include="Assets\Scripts\Interactive.cs" />
     <Compile Include="Assets\Scripts\SpawnFlower.cs" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>/Users/Lisa/H4H2019/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
