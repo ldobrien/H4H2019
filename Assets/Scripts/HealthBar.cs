@@ -26,6 +26,13 @@ public class HealthBar : MonoBehaviour
         return CurrentHealth / MaxHealth;
     }
 
+    public void KillHealth()
+    {
+        CurrentHealth = 0;
+        healthbar.value = CurrentHealth / MaxHealth;
+
+    }
+
     public void IncreaseHealth()
     {
         CurrentHealth += 100;
@@ -35,7 +42,8 @@ public class HealthBar : MonoBehaviour
     // Update is called once per frame
     private void FixedUpdate()
     {
-        if(CurrentHealth + decrement <= 0) {
+        if(CurrentHealth + decrement <= 0) 
+        {
             //you ded
             Time.timeScale = 0;
             GameOver.SetActive(true);

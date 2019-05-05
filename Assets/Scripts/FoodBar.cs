@@ -14,8 +14,8 @@ public class FoodBar : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Max = 1000f;
-        increment = 10f;
+        Max = 500f;
+        increment = 50f;
         Current = 0;
         foodbar.value = CalculateFood();
         
@@ -34,7 +34,7 @@ public class FoodBar : MonoBehaviour
         return Current / Max;
     }
 
-    void UpdateFoodBar()
+    public void UpdateFoodBar()
     {
         if(Current + increment >= Max)
         {
@@ -45,5 +45,10 @@ public class FoodBar : MonoBehaviour
             Current += increment;
             foodbar.value = CalculateFood();
         }
+    }
+    public void IncreaseFoodBar()
+    {
+        Current += 1000;
+        foodbar.value = Current / Max;
     }
 }
