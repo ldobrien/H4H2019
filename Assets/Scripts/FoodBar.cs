@@ -9,6 +9,8 @@ public class FoodBar : MonoBehaviour
     public float Current { get; set; }
     public float Max { get; set; }
     public float increment;
+    public GameObject Win;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -34,7 +36,14 @@ public class FoodBar : MonoBehaviour
 
     void UpdateFoodBar()
     {
-        Current += increment;
-        foodbar.value = CalculateFood();
+        if(Current + increment >= Max)
+        {
+            Time.timeScale = 0;
+            Win.SetActive(true);
+        } else
+        {
+            Current += increment;
+            foodbar.value = CalculateFood();
+        }
     }
 }

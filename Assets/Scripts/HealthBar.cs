@@ -9,6 +9,7 @@ public class HealthBar : MonoBehaviour
     public float MaxHealth { get; set; }
     public float decrement;
 
+    public GameObject GameOver;
     public Slider healthbar;
 
     // Start is called before the first frame update
@@ -34,14 +35,16 @@ public class HealthBar : MonoBehaviour
     // Update is called once per frame
     private void FixedUpdate()
     {
-        //if(CurrentHealth + decrement <= 0) { 
-        //    //you ded
-        //}
-        //else
-        //{
+        if(CurrentHealth + decrement <= 0) {
+            //you ded
+            Time.timeScale = 0;
+            GameOver.SetActive(true);
+        }
+        else
+        {
         // Debug.Log(MaxHealth);
             CurrentHealth += decrement;
             healthbar.value = CurrentHealth / MaxHealth;
-        //}
+        }
     }
 }
