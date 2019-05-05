@@ -1,0 +1,30 @@
+﻿<Properties StartupConfiguration="{AD0E2410-DF8C-1CCE-DA87-A9E0F55B3EA2}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Eating.cs">
+    <Files>
+      <File FileName="Assets/Scripts/BeeMove.cs" Line="28" Column="63" />
+      <File FileName="Assets/Scripts/HealthBar.cs" Line="37" Column="27" />
+      <File FileName="Assets/Scripts/FoodBar.cs" Line="16" Column="23" />
+      <File FileName="Assets/SpawnFlower.cs" Line="24" Column="52" />
+      <File FileName="Assets/Eating.cs" Line="16" Column="9" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="H4H2019" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Scripts" expanded="True" />
+              <Node name="Eating.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="Unity.Editor" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
